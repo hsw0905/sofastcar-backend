@@ -58,6 +58,7 @@
 ## 2차 스프린트 (2020.09.19 ~ 2020.10.08)
 - 팀 구성원의 변경
 - 1차 스프린트 미완성분에 대한 보완, 모델 재설계 작업
+- ![ERD](Readme-images/SoFastCar-ERD.png)
 
 ### MVP development
 <p align="center" style="display: flex;justify-content: space-between;">
