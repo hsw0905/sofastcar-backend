@@ -14,8 +14,8 @@ server {
     charset                 utf-8;
 
     ssl                     on;
-    ssl_certificate         /etc/letsencrypt/live/moorekwon.xyz/fullchain.pem;
-    ssl_certificate_key     /etc/letsencrypt/live/moorekwon.xyz/privkey.pem;
+    ssl_certificate         /etc/letsencrypt/live/sofastcar.moorekwon.xyz/fullchain.pem;
+    ssl_certificate_key     /etc/letsencrypt/live/sofastcar.moorekwon.xyz/privkey.pem;
 
     location / {
         include             /etc/nginx/proxy_params;

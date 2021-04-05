@@ -91,7 +91,6 @@
 - 개발하다 보니 ios 팀에서 원하는 API의response 모습이 따로 있었다(기능 A, B, C가 한번의 쿼리에 다 나오게 해달라 등등)
 
 ### 코드 이슈
-- letsencrypt를 이용하여 무료로 https를 사용했으나, 3개월 후 갱신이 되지 않는 이슈가 있다.(certbot-auto is deprecated on this system)
 - test case 자체가 잘못되거나 부족한 경우, 의도하지 않은 결과가 나왔다.
 - 처음엔 API 문서파일을 postman에 작성하였으나, api 25개 갯수 제한이 있어 drf-yasg 라이브러리를 이용하여 문서를 작성했다.
 - 각자 맡은 부분 코딩을 하다 보면, 모델이 변경되는 부분이 생기고, 팀원마다 migration  파일이 달라지게 되고, merge 과정에서 충돌이 발생했다.
