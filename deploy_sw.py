@@ -18,6 +18,7 @@ DOCKER_OPTIONS = (
     ('-d', ''),
     ('-p', '80:80'),
     ('-p', '443:443'),
+    ('-p', '9001:9001'),
     ('-v', '"/etc/letsencrypt:/etc/letsencrypt"'),
     ('--name', f'{PROJECT_NAME}'),
 )
